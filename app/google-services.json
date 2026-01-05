@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "530719586219",
+    "project_id": "dreamland-a35eb",
+    "storage_bucket": "dreamland-a35eb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:530719586219:android:3947ce5c5aa4e0beebc4ee",
+        "android_client_info": {
+          "package_name": "com.example.dreamland"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBf91BAJirnAOadp4PqTSYAHDoCXNl2NZY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

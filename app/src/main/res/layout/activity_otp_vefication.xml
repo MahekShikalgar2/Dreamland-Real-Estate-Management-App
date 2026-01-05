@@ -69,7 +69,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:weightSum="4"
+        android:weightSum="6"
         android:layout_marginEnd="20dp"
         android:layout_marginStart="20dp"
         android:layout_marginTop="40dp"
@@ -77,59 +77,104 @@
 
         <EditText
             android:id="@+id/otpET1"
-            android:layout_width="50dp"
+            android:layout_width="45dp"
             android:layout_height="50dp"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="1"
             android:background="@drawable/round_back_dark_blue5_15"
+            android:ellipsize="middle"
             android:gravity="center"
             android:inputType="number"
             android:maxLines="1"
+            android:maxLength="1"
             android:textColor="#000000"
-            android:textSize="30sp"
-            android:textStyle="bold"
-            android:layout_marginEnd="10dp"
-            android:layout_weight="1"/>
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
         <EditText
             android:id="@+id/otpET2"
-            android:layout_width="50dp"
+            android:layout_width="45dp"
             android:layout_height="50dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="1"
             android:background="@drawable/round_back_dark_blue5_15"
+            android:ellipsize="middle"
             android:gravity="center"
             android:inputType="number"
-            android:layout_marginStart="10dp"
+            android:maxLength="1"
             android:maxLines="1"
             android:textColor="#000000"
-            android:textSize="30sp"
-            android:textStyle="bold"
-            android:layout_marginEnd="10dp"
-            android:layout_weight="1"/>
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
         <EditText
             android:id="@+id/otpET3"
-            android:layout_width="50dp"
+            android:layout_width="45dp"
             android:layout_height="50dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="1"
             android:background="@drawable/round_back_dark_blue5_15"
+            android:ellipsize="middle"
             android:gravity="center"
+            android:maxLength="1"
             android:inputType="number"
             android:maxLines="1"
             android:textColor="#000000"
-            android:textSize="30sp"
-            android:layout_marginStart="10dp"
-            android:textStyle="bold"
-            android:layout_marginEnd="10dp"
-            android:layout_weight="1"/>
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
         <EditText
             android:id="@+id/otpET4"
-            android:layout_width="50dp"
+            android:layout_width="45dp"
             android:layout_height="50dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:maxLength="1"
+            android:layout_weight="1"
             android:background="@drawable/round_back_dark_blue5_15"
+            android:ellipsize="middle"
             android:gravity="center"
             android:inputType="number"
-            android:layout_marginStart="10dp"
             android:maxLines="1"
             android:textColor="#000000"
-            android:textSize="30sp"
-            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/otpET5"
+            android:layout_width="45dp"
+            android:layout_height="50dp"
+            android:maxLength="1"
+            android:layout_marginStart="10dp"
             android:layout_marginEnd="10dp"
-            android:layout_weight="1"/>
+            android:layout_weight="1"
+            android:background="@drawable/round_back_dark_blue5_15"
+            android:ellipsize="middle"
+            android:gravity="center"
+            android:inputType="number"
+            android:maxLines="1"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/otpET6"
+            android:layout_width="45dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="1"
+            android:maxLength="1"
+            android:background="@drawable/round_back_dark_blue5_15"
+            android:ellipsize="middle"
+            android:gravity="center"
+            android:inputType="number"
+            android:maxLines="1"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
 
     </LinearLayout>
     <androidx.appcompat.widget.AppCompatButton

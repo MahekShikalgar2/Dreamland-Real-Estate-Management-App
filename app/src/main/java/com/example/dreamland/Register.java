@@ -11,6 +11,9 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
+
 public class Register extends AppCompatActivity {
 
 
@@ -26,7 +29,7 @@ public class Register extends AppCompatActivity {
         EditText mobile = findViewById(R.id.mobileEdittext);
         EditText password = findViewById(R.id.passwordEdittext);
         EditText conPassword = findViewById(R.id.confpasswordEdittext);
-
+        EditText fullName = findViewById(R.id.fullnameEdittext);
         ImageView passwordIcon = findViewById(R.id.passwordicon);
         ImageView conPasswordIcon = findViewById(R.id.confpasswordIcon);
 
@@ -39,10 +42,15 @@ public class Register extends AppCompatActivity {
 
                 final String getMobiletxt = mobile.getText().toString();
                 final String getEmailtxt = email.getText().toString();
+                final String getfullnametxt = fullName.getText().toString();
+                final String getpassword = password.getText().toString();
+
 
                 Intent  intent = new Intent(Register.this, OtpVefication.class);
                 intent.putExtra("mobile",getMobiletxt);
                 intent.putExtra("email",getEmailtxt);
+                intent.putExtra("fullname",getfullnametxt);
+                intent.putExtra("password",getpassword);
                 startActivity(intent);
 
             }
@@ -101,4 +109,6 @@ public class Register extends AppCompatActivity {
         });
 
     }
+
+
 }
