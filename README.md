@@ -49,37 +49,7 @@ This app provides a **complete solution for both residential and commercial prop
 
 ---
 
-## 📁 Project Structure inhans this fiel
-
-Dreamland-Real-Estate-App/
-├── app/                     # Main Android app module
-│   ├── src/
-│   │   ├── main/
-│   │   │   ├── java/com/example/dreamland/   # All Java source code
-│   │   │   │   ├── MainActivity.java
-│   │   │   │   ├── LoginActivity.java
-│   │   │   │   ├── Register.java
-│   │   │   │   ├── OtpVerification.java
-│   │   │   │   └── ... (other activity & helper classes)
-│   │   │   ├── res/           # App resources
-│   │   │   │   ├── layout/    # XML layout files
-│   │   │   │   ├── drawable/  # Images, icons, shapes
-│   │   │   │   ├── values/    # Strings, colors, themes
-│   │   │   │   └── mipmap/    # App launcher icons
-│   │   │   └── AndroidManifest.xml  # App configuration
-│   │   └── androidTest/       # Instrumentation tests
-│   │   └── test/              # Unit tests
-│   ├── build.gradle.kts       # App-level Gradle build file
-│   └── google-services.json   # Firebase configuration
-├── gradle/                     # Gradle wrapper files
-├── gradle.properties           # Gradle project properties
-├── build.gradle.kts            # Project-level Gradle build file
-├── settings.gradle.kts         # Project settings
-├── gradlew                     # Gradle wrapper executable (Linux/Mac)
-├── gradlew.bat                 # Gradle wrapper executable (Windows)
-├── local.properties            # Local Android SDK path (ignored in Git)
-└── README.md                   # Project documentation
 
 
-## 📁 Project Structure
+
 
